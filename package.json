@@ -1,0 +1,17 @@
+{
+  "name": "eren-data-api",
+  "version": "1.0.0",
+  "description": "Data storing api",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "ErenYeager",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2",
+    "uuid": "^11.0.5"
+  }
+}
