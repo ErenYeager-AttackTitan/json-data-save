@@ -9,7 +9,7 @@ const PORT = 3000;
 app.use(express.json());
 
 // Endpoint to fetch all data
-app.get('/data', async (req, res) => {
+app.get('/', async (req, res) => {
   try {
     // Read the existing data from the JSON file
     const data = await fs.readFile('./data.json', 'utf-8');
